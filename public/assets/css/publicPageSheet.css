@@ -1,0 +1,60 @@
+:root {
+    --dark-ming: #003338;
+    --ming: #006D77;
+    --middle-ming: #83C5BE;
+    --light-ming: #D6ECEB;
+    --v-light-ming: #EDFAFA;
+}
+body{
+    background-color: var(--v-light-ming);
+    font-family: "Georgia";
+}
+.my-nav{
+    background-color:var(--ming);
+    color:var(--v-light-ming);
+    font-family: "Garamond";
+}
+.proj{
+    background-color: var(--ming);
+    color:var(--dark-ming);
+    border-color:var(--ming);
+
+}
+.txt-shadow{
+    text-shadow: 2px 2px 5px black;
+}
+.txt-light{
+    color:var(--v-light-ming);
+}
+.txt-mid{
+    color:var(--middle-ming);
+}
+.txt-dark{
+    color:var(--dark-ming);
+}
+.txt-ming{
+    color:var(--ming);
+}
+.bg-dark-ming{
+    background-color:var(--dark-ming);
+}
+.bg-ming{
+    background-color:var(--ming);
+}
+.bg-middle-ming{
+    background-color:var(--middle-ming);
+}
+.bg-light-ming{
+    background-color:var(--light-ming);
+}
+a:link { text-decoration: none; color:var(--v-light-ming);}
+a:visited { text-decoration: none; }
+a:hover{ color: var(--ming); }
+.mt-6{
+    margin-top: 150px;
+}
+
+.my-btn{
+    background-color: var(--ming);
+    color: var(--v-light-ming);
+}
